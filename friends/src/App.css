@@ -1,22 +1,84 @@
-.App {
-  text-align: center;
+body, html{
+  background-image: url('https://www.wellandgood.com/wp-content/uploads/2019/08/GettyImages-friendship-type-Santiago-In%CC%83iguez-EyeEm.jpg');
+
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
+.App{
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
+  width: 20rem;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  border: 1px solid orange;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+input{
+  width: 6rem;
+  margin-top: 3%;
+}
+
+button{
+  width: 5rem;
+  height: 1.5rem;
+  margin-top: 5%;
+  background-color: rgb(255, 204, 0);
+  border-radius: 25px;
+}
+
+.navigation{
+  display: flex;
+  display: flex;
+  width: 100%;
+  padding: 1%;
+  justify-content: space-evenly; 
+}
+
+.link{
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.friends{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.friends-list{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.friend{
+  font-size: 10px;
+  border: 1px solid orange;
+  width: 30%;
+  height: 5rem;
+  margin-top: 1%;
+  margin-bottom: 1%;   
 }
